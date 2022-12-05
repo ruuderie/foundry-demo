@@ -24,3 +24,8 @@ contract Treasury {
         msg.sender.transfer(_amount);
     }
 }
+
+/* 
+This contract includes a deposit() function that allows members of the DAO to deposit funds, and a withdraw() function that allows the owner of the contract to withdraw funds from the treasury. It uses the SafeMath library to ensure that arithmetic operations on the totalFunds variable are safe from overflow and underflow. Of course, this is just a simple example, and a real DAO Treasury contract would likely have many more features and be much more complex.
+
+*/
